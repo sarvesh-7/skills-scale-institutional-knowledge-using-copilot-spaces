@@ -4,9 +4,10 @@
 Guidance for managing day-to-day execution and tracking progress toward project milestones.
 
 ## Team Rhythm
-- Daily standups (15 min) — focus on progress, blockers, dependencies
+- Daily standups (15 min) — facilitated by Scrum Master; focus on progress, blockers, dependencies
 - Weekly delivery sync — show progress, updates, and flagged risks
 - Demo/Review at the end of each sprint or milestone
+- Sprint retrospectives facilitated by Scrum Master with action items tracked to completion
 
 ## Workflows
 - Use the project board (e.g., GitHub Projects) with columns: Backlog, Ready, In Progress, In Review, QA, Done
@@ -22,11 +23,14 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - End-to-end smoke tests for critical flows before release
 - Security scanning in CI
 - Manual QA for feature acceptance when needed
+- QA Engineer owns the test strategy, maintains automated test suites, and provides formal quality sign-off before release
+- QA Engineer triages and tracks defects through resolution, providing daily quality status in standups
 
 ## Reporting & Metrics
 - Track velocity and burndown
 - Monitor success metrics identified in the Project One-pager
 - Use dashboards for key signals (errors, latency, usage)
+- Technical Writer produces documentation status reports and release note drafts at the end of each sprint
 
 ## Blocker Escalation
 - Level 1: Team-level triage in daily standup

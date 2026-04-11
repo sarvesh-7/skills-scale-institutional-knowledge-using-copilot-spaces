@@ -25,10 +25,14 @@ OctoAcme projects move through five phases:
 | **Project Manager (PM)** | Coordinates delivery, schedules, risks, and communications to ensure on-time, in-scope delivery. |
 | **Product Manager (PdM)** | Defines what should be built, prioritizes the roadmap and backlog, and measures outcomes against success metrics. |
 | **Developers** | Design, build, test, and document features to meet acceptance criteria; participate in design and code reviews. |
-| **QA / Testing** | Validate quality and acceptance criteria before release; contribute to test planning and coverage. |
+| **QA Engineer** | Designs test strategies, builds automated/manual test suites, triages defects, and signs off on quality before release. |
+| **UX Designer** | Shapes user experience strategy, delivers wireframes and design assets, and leads usability validation. |
+| **Technical Writer** | Maintains process and project documentation, drives onboarding clarity, and manages release notes. |
+| **Scrum Master** | Facilitates agile ceremonies, removes blockers, and enforces process standards. |
+| **Business Analyst** | Gathers and documents requirements, maps business processes, and translates stakeholder needs into technical language. |
 | **Stakeholders** | Provide inputs, approvals, and milestone-based status updates. |
 
-Each project has a named PM and PdM, creating clear accountability and reducing single-person dependency.
+Each project has a named PM and PdM, creating clear accountability and reducing single-person dependency. See the [Role Interaction Matrix](./ROLE-INTERACTION-MATRIX.md) for a breakdown of cross-functional collaboration across the project lifecycle.
 
 ## Communication Strategies & Cadences
 
@@ -67,4 +71,5 @@ Quality is built in throughout the project lifecycle:
 | [Risk Management & Communication](./octoacme-risks-and-communication.md) | Risk register format, risk lifecycle, stakeholder communication templates, and escalation paths |
 | [Release & Deployment](./octoacme-release-and-deployment.md) | Pre-release requirements, deployment checklist, rollback playbook, and release notes template |
 | [Retrospective & Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md) | Retrospective structure, facilitation guidance, action item tracking, and continuous improvement culture |
-| [Roles & Personas](./octoacme-roles-and-personas.md) | Detailed responsibilities, goals, and typical communication patterns for each role (Developers, PdMs, PMs) |
+| [Roles & Personas](./octoacme-roles-and-personas.md) | Detailed responsibilities, goals, and typical communication patterns for each role (Developers, PdMs, PMs, QA Engineers, UX Designers, Technical Writers, Scrum Masters, Business Analysts) |
+| [Role Interaction Matrix](./ROLE-INTERACTION-MATRIX.md) | Cross-functional role participation by lifecycle phase, key interaction points, communication frequency, and responsibility ownership |
